@@ -1,0 +1,92 @@
+Purpose
+
+The purpose of tagging is to provide a way to categorize documents and make them easily searchable. Documents should be able to be searched for by things like knowledgebase article, fix number, or type of root cause. 
+
+Easily-searchable documents allow technical writers to benefit off of other technical writers’ completed RCA documents and allow documents in a certain category to be tracked and counted. 
+
+Windows Explorer currently allows for one to search the content of a document for a key word/number. However, especially because RCAs are customer-deliverable, many key pieces of information are changed or left out of the final product. Tags allow these documents to still be searched and categorized by information that does not make it into the document. 
+When to tag a document
+
+Document tagging can be done any time over the course of document writing. However, the tag should be put in place, at least, when the document is finalized. The best practice for this would be to place all necessary tags when changing the document to include ‘final’. This way, the properly-tagged document will be synced (using SyncToy) to the ‘Completed RCAs’ folder in Syncplicity and allow the team access to the finished, tagged document. 
+
+
+What to tag a document
+
+We should be tagging a document with the following items (if applicable):
+ 
+•	KB/ETA number
+•	Do not include ‘KB’ or ‘ETA’, only include the number.
+•	Fix number (Example: XIO-453768)
+•	Use the full name (including ‘XIO-‘)
+•	Type of root cause (use the following key words):
+•	Undetermined root cause
+•	EMC fault
+•	Customer fault
+•	Routine hardware failure
+•	Timeline: if the document has a timeline, tag the document as ‘timeline’ to allow these documents to be easily found. 
+ 
+The following options are optional but, depending on the case, these tags would be useful:  
+ 
+•	Good/valuable explanations of issues: If the document contains a good/useful explanation of an issue (soft media errors, fencing, etc.), tag the document with a key word for the issue. Someone searching for this key word in the future will be able to find documents that dealt with this issue well. 
+•	Alternate customer names: if the customer goes by other names (NYSITS vs. College of Nanoscale Science and Technology) tag that name as well so each document for the same customer can be found. 
+•	A specific process had an issue, use that process as a tag. For example, if EMC Captiva Cloud Toolkit was used, add the tool name as a tag.
+
+How to use document tagging 
+
+All documents in the ‘Completed RCAs’ folder in Syncplicity should be tagged using the proper tagging practices outlined in this document. When searching for a document, make sure the search includes the Syncplicity folders. 
+
+Tagged documents will be the first results in the search for a particular thing. For example, if searching in Windows Explorer for a document involving ETA 195555, documents tagged with ‘195555’ will appear first in the search before documents with ‘195555’ in its body text. This allows the search to pinpoint documents directly related to the search criteria, instead of pulling documents that casually mention the search criteria or are not directly related. 
+
+Tagging documents only works if all finalized documents are tagged, allowing them to be easily searchable and providing each search with complete information. 
+
+The following are examples of situations where searching for tagged documents can make writing an RCA document easier:
+
+•	A case involves a customer who accidentally unplugged a cable: One can search for ‘Customer Fault’ tags to find ideas for wording the issue correctly.
+•	A case involves an Engineering bug number: One can search for the bug number in the completed documents to borrow from the information already contained. 
+
+
+How to search for a tagged document
+
+1.	Open Windows Explorer
+2.	Navigate to where your RCA documents are stored. The entire team puts completed documents in Syncplicity, under the folder ‘Completed RCAs’. Make sure this folder contained inside the folder where you are starting your search if you want to search in all RCA documents.
+3.	Include the following before the tag search: Tag:
+
+For example, if I want to search for a document tagged with ‘195555’, the search would look like this:
+
+ 
+ 
+Appendix: Current Practices
+
+Tagging is a very simple process and should (at least) be done once you mark a document as 'final', so that only final documents show up in a search. 
+ 
+How to tag a document through Windows Explorer:
+
+1.	Open Windows Explorer
+2.	Select the file you wish to tag
+3.	At the bottom of windows explorer in the file details section, there will be a Tags section, seen in the below graphic: 
+
+ 
+4.	Click on the Add a tag area and a curser will appear and allow you to type the tags. Make sure you select the Save button to save the tag. 
+5.	After this, the document will be searchable by the tag even though the tag information is not in the actual document.
+
+How to tag a document in Microsoft Word (Option 1):
+
+1.	Select File
+2.	Select Save As
+3.	Add tags to the ‘Tags’ section underneath the file name: 
+
+ 
+4.	Save the document.
+
+How to tag a document in Microsoft Word (Option 2):
+
+1.	Select File
+2.	Select Info
+3.	On the right-hand side of the document, the document properties are listed. 
+4.	List the tags under the ‘Tags’ section:
+
+ 
+5.	Save the document. 
+Appendix: S360 Changes
+
+TBD
